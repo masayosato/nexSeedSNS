@@ -1,0 +1,60 @@
+@charset "UTF-8";
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+@charset "UTF-8";
+#header{
+	height:60px;
+	width:2000px;
+	background-color:#db7093;
+	font-size:24px;
+	color:white;
+	text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+	border-bottom:20px solid #c71585;
+}
+#space{height:30px;}
+#space02{height:10px;}
+#loginInfo{text-align:right;}
+#menu{text-align:center;}
+#tableCenter{
+	width:600px;
+	background-color:#EFF5FB;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	padding:10px
+}
+#footer{text-align:center;}
+hr{border:2px solid #c71585;width:2000px;}
+hr.center{border:1px dashed #dcdcdc;width:300px;text-align:center;}
+.redText{color:red;}
+.boldText{font-weight:bold;}
+.textR{text-align:right;}
+.textC{text-align:center;}
+.navi{width:1000px}
+.line{border: 2px solid;	 width:800px;margin-left : 1em ;}
+input.not {background-color:#f5f5f5;}
+
+.anime_move {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    -webkit-animation: anime_move1 5s linear infinite;
+    animation: anime_move 5s linear infinite;
+}
+@-webkit-keyframes anime_move {
+    0% { -webkit-transform: rotateX(0deg) rotate(0deg); }
+    100% { -webkit-transform: rotateX(0deg) rotate(360deg); }
+}
+@keyframes anime_move {
+    0% { transform: rotateX(0deg) rotate(0deg); }
+    100% { transform: rotateX(0deg) rotate(360deg); }
+}
+
